@@ -1,0 +1,725 @@
+/* desktop */
+.firstClass {
+    display:none;
+}
+
+.changeClass{
+    display:block;
+}
+
+body {
+    font-size:.9em;
+    display:flex;
+    font-family:"verdana";
+    margin:0;
+    padding:0;
+    color:#373737;
+    flex-wrap:wrap;
+}
+
+
+body > header {
+    background-color:#ffce0b;
+    width:17%;
+    height:10%;
+    padding:1em;
+    font-size:1.1em;
+}
+
+body > header img {
+    width:60%;
+    height:60%;
+}
+
+body > header a {
+    color: #373737
+}
+
+body > header nav ul {
+    list-style:none;
+    padding:0%;
+    margin-bottom:10%;
+    margin-top:5%;
+}
+
+body > header nav li {
+    display:block;
+    box-sizing: border-box;
+    margin-left:1%;
+    margin-top:7%;
+    padding:4%;
+    background-color:white;
+    border-radius:5px 5px 5px 5px;
+    text-align:center;
+    transition: background-color, 0.3s ease;
+}
+
+body > aside > section:nth-child(1) {
+    width:100%;
+}
+
+body > aside > section:nth-child(2) {
+    width:100%;
+    margin-left:2%;
+    margin-right:3%;
+    margin-bottom:3%;
+}
+
+
+nav li:hover {
+    background-color:#ffce0b;
+}
+
+#beroepen {
+    width:90%;
+    height:90%
+}
+
+
+/* breed */
+main {
+    margin-left:1%;
+    width:30%
+}
+
+aside {
+    margin-left:1%;
+    width:22%;
+}
+
+
+aside > section > article {
+    border-bottom:.1em solid #ffce0b;
+}
+
+.related {
+    padding-left:.5%;
+    padding-right:.5%;
+    width:24%;
+    background-color:#fafafa;
+    height:100%;
+    margin-left:1em;
+    margin-bottom:1em;
+}
+
+.related > article {
+    border-bottom:.1em solid #ffce0b;
+}
+
+a {
+    text-decoration:none;
+    color:#ffce0b;
+}
+
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:3%;
+    list-style: none;
+}
+
+main > header {
+    padding:1em;
+}
+
+.to-profile {
+    font-size:.5em;
+}
+
+form {
+    margin-top:5%;
+}
+
+.search {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+input[type=search] {
+    display: block;
+    letter-spacing: 4px;
+}
+
+section > img {
+    width:80%;
+    height:80%;
+}
+
+/*formulier*/
+fieldset {
+    height:100%;
+    display:flex;
+    border:1px solid #e2e2e2;
+}
+
+fieldset > fieldset {
+    border:0
+}
+
+legend {
+    font-weight:bold;
+    font-size:1.2em;
+    margin-bottom:.3em;
+    padding-top:1em;
+}
+
+input[type="text"] {
+    padding:.2em;
+    margin-bottom:1em;
+}
+
+input:focus {
+    border:1px solid #ffce0b;
+}
+
+body > main > form > fieldset:nth-child(1) > label:nth-child(6) > input[type="tel"]{
+    padding:.2em;
+    margin-bottom:1em;
+}
+
+body > main > form > fieldset:nth-child(1) > label:nth-child(7) > input[type="email"]{
+    padding:.2em;
+    margin-bottom:1em;
+}
+
+textarea {
+    width:80%;
+    margin:.2em;
+}
+
+body > main > form > input[type="submit"] {
+    background:#ffce0b;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    border:none;
+    color:#fff;
+    padding:15px 8px 15px 8px;
+    font-size:1.3em;
+    transition: background-color, 0.4s ease;
+    margin-top: 2%;
+    margin-bottom:3.5%;
+    border-radius:5px;
+}
+
+body > main > form > input[type="submit"]:hover {
+    background:#e2b501;
+}
+
+body > main > form > fieldset.project > label:nth-child(5) > textarea {
+    margin-bottom:2%;
+}
+
+body > main > form > fieldset.stage > label:nth-child(4) > input[type="date"] {
+    margin-bottom:2%;
+}
+
+
+
+/*text input alignment*/
+body > main > form > fieldset:nth-child(1) > label:nth-child(2) > input[type="text"] {
+    margin-left:100px;
+}
+body > main > form > fieldset:nth-child(1) > label:nth-child(3) > input[type="text"] {
+    margin-left:94px;
+}
+body > main > form > fieldset:nth-child(1) > label:nth-child(4) > input[type="text"] {
+    margin-left:101px;
+}
+body > main > form > fieldset:nth-child(1) > label:nth-child(5) > input[type="text"] {
+    margin-left:78px;
+}
+body > main > form > fieldset:nth-child(1) > label:nth-child(6) > input[type="tel"] {
+    margin-left:80px;
+}
+body > main > form > fieldset:nth-child(1) > label:nth-child(7) > input[type="email"] {
+    margin-left:56px;
+}
+
+
+body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(2) > input[type="text"] {
+    margin-left:78px;
+}
+body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(3) > input[type="text"] {
+    margin-left:133px;
+}
+body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(4) > input[type="text"] {
+    margin-left:109px;
+}
+body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(5) > input[type="text"] {
+    margin-left:131px;
+}
+body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(6) > input[type="text"] {
+    margin-left:127px;
+}
+body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(7) > input[type="text"] {
+    margin-left:73px;
+}
+
+/*footer*/
+body > footer {
+    display:flex;
+    width:100%;
+    height:100%;
+    border-top:.1em solid #ffce0b;
+    background-color:#fafafa;
+    font-size:.9em;
+}
+
+
+#sitemap {
+    padding:1%;
+}
+
+#search {
+    padding:1%;
+}
+
+#contact {
+    padding:1%;
+    width:50%
+}
+
+#about {
+    padding:1%;
+}
+
+#feedback {
+    padding:1%;
+    margin-top:3%
+}
+
+/*Break Point 1* grootst/
+@media only screen and (max-width: 1200px) {
+        /* triple column */
+
+        body {
+            color:#373737;
+            font-size:1em;
+            font-family:"verdana";
+            margin:0;
+        }
+
+        body > header {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            background-color:#ffce0b;
+            flex-wrap:wrap;
+            width:100%;
+            height:100%;
+            font-size:1em;
+        }
+
+        body > header > p:nth-child(3) {
+            width:70%;
+            margin-left:1em;
+        }
+
+        body > header > h1 {
+            width:70%;
+        }
+
+        body > header nav{
+            box-sizing: border-box;
+            display: flex; /* or inline-flex */
+            flex-wrap: wrap;
+            width:100%;
+            margin-bottom:1%;
+
+        }
+
+        body > header nav ul{
+            box-sizing: border-box;
+            display: flex; /* or inline-flex */
+            flex-wrap: wrap;
+            margin:0 auto;
+            justify-content:center;
+            width:100%;
+
+        }
+
+        body > header nav li{;
+            display:block;
+            box-sizing: border-box;
+            margin-top:3%;
+            padding:0;
+
+        }
+
+        body > header > nav li {
+            background-color:white;
+            padding:.5em;
+            text-decoration-color:black;
+            transition: background-color, 0.4s ease;
+            border-radius:5px;
+        }
+
+        nav  li:hover {
+            background-color:#ffce0b;
+        }
+
+        a {
+            text-decoration:none;
+        }
+
+        body > footer a {
+            color:black;
+        }
+
+        ul {
+            list-style:none;
+        }
+
+        body > header img {
+            width:30%;
+            height:30%;
+        }
+
+        body > section {
+            flex-wrap:wrap;
+            padding:0%;
+            justify-content:center;
+            width:100%;
+        }
+
+        .related {
+            width:27%;
+        }
+
+        aside {
+            width:23%;
+        }
+
+        main {
+            width:40%;
+            margin-left:3%;
+        }
+
+        .to-profile {
+            font-size:.5em;
+        }
+
+        body > header > h1 {
+            display:none;
+        }
+
+        header > p:nth-child(2) {
+            display:none;
+        }
+
+        /*footer*/
+        body > footer {
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            padding:3%;
+            width:100%;
+            background-color:#ffce0b;
+            font-size:.5em;
+            margin-left:0%
+        }
+
+        #contact {
+            text-align:center;
+            margin-right:5em;
+        }
+
+        #credits {
+            text-align:center;
+            width:100%;
+        }
+
+        #about {
+            display:none;
+        }
+
+        #search {
+            text-align:center;
+        }
+
+        #sitemap {
+            display:none;
+        }
+
+        #feedback {
+            width:100%;
+            text-align:center;
+        }
+
+        form {
+            margin:0%;
+        }
+
+/*text input alignment*/
+        body > main > form > fieldset:nth-child(1) > label:nth-child(5) > input[type="text"] {
+            margin-left:75px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(6) > input[type="tel"] {
+            margin-left:78px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(7) > input[type="email"] {
+            margin-left:52px;
+        }
+
+
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(2) > input[type="text"] {
+            margin-left:5px;
+        }
+
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(3) > input[type="text"]{
+            margin-left:66px
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(4) > input[type="text"] {
+            margin-left:40px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(5) > input[type="text"] {
+            margin-left:64px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(6) > input[type="text"] {
+            margin-left:60px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(7) > input[type="text"] {
+            margin-left:0px;
+        }
+}
+
+
+/*Break Point 2*/
+@media only screen and (max-width: 62em) {
+/*text input alignment*/
+        body > main > form > fieldset:nth-child(1) > label:nth-child(2) > input[type="text"] {
+            margin-left:49px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(3) > input[type="text"] {
+            margin-left:43px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(4) > input[type="text"] {
+            margin-left:50px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(5) > input[type="text"] {
+            margin-left:24px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(6) > input[type="tel"] {
+            margin-left:27px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(7) > input[type="email"] {
+            margin-left:0px;
+        }
+}
+
+
+/*Break Point 3*/
+@media only screen and (max-width: 52em) {
+        /*dual column*/
+
+        main {
+            width:53%;
+            margin-left:3%
+        }
+
+        .related {
+            width:40%;
+        }
+
+        aside {
+            width:100%;
+            display:flex;
+        }
+
+        body > aside > section:nth-child(1) {
+            width:46%;
+            margin-left:3%;
+        }
+
+        body > aside > section:nth-child(2) {
+            width:46%;
+        }
+
+/*text input alignment*/
+        body > main > form > fieldset:nth-child(1) > label:nth-child(2) > input[type="text"] {
+            margin-left:49px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(3) > input[type="text"] {
+            margin-left:43px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(4) > input[type="text"] {
+            margin-left:50px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(5) > input[type="text"] {
+            margin-left:24px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(6) > input[type="tel"] {
+            margin-left:27px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(7) > input[type="email"] {
+            margin-left:0px;
+        }
+
+
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(2) > input[type="text"] {
+            margin-left:6px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(3) > input[type="text"] {
+            margin-left:66px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(4) > input[type="text"] {
+            margin-left:41px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(5) > input[type="text"] {
+            margin-left:64px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(6) > input[type="text"] {
+            margin-left:60px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(7) > input[type="text"] {
+            margin-left:0px;
+        }
+}
+
+/*Break Point 4*/
+@media only screen and (max-width: 39em) {
+
+        /* single column */
+
+        body {
+            color:#373737;
+        }
+
+        body > header {
+            font-size:.9em;
+        }
+
+        .related {
+            width:94%;
+            padding:3%;
+            margin-left:3%;
+            margin-right:3%;
+            background-color:white;
+            border-top:.1em solid #ffce0b;
+        }
+
+        aside {
+            width:100%;
+            padding:3%;
+            display:flex;
+            flex-wrap:wrap;
+
+        }
+
+        body > aside > section:nth-child(1) {
+            width:94%;
+            margin-left:3%;
+            margin-right:3%;
+        }
+
+        body > aside > section:nth-child(2) {
+            width:94%;
+            margin-left:3%;
+            margin-right:3%;
+        }
+
+        main {
+            width:100%;
+            padding:3%;
+        }
+
+        header > p:nth-child(2) {
+            display:none;
+        }
+
+
+        /*footer*/
+        body > footer {
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            padding:3%;
+            width:100%;
+            background-color:#ffce0b;
+            font-size:.5em;
+            margin-left:0%;
+        }
+
+        body > footer > a {
+            color:black;
+        }
+
+        #contact {
+            width:100%;
+            text-align:center;
+            padding:0;
+            margin:0;
+        }
+
+        #credits {
+            width:100%;
+            text-align:center;
+        }
+
+        #about {
+            display:none;
+        }
+
+        #search {
+            display:none;
+        }
+
+        #sitemap {
+            display:none;
+        }
+
+        #feedback {
+            width:100%;
+            text-align:center;
+        }
+
+        form {
+            margin:0%;
+        }
+}
+
+
+/*Break Point 5 kleinst*/
+    @media only screen and (max-width: 26em){
+/*text input alignment*/
+        body > main > form > fieldset:nth-child(1) > label:nth-child(2) > input[type="text"] {
+            margin-left:49px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(3) > input[type="text"] {
+            margin-left:43px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(4) > input[type="text"] {
+            margin-left:51px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(5) > input[type="text"] {
+            margin-left:25px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(6) > input[type="tel"] {
+            margin-left:28px;
+        }
+        body > main > form > fieldset:nth-child(1) > label:nth-child(7) > input[type="email"] {
+            margin-left:0;
+        }
+
+
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(2) > input[type="text"] {
+            margin-left:6px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(3) > input[type="text"] {
+            margin-left:67px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(4) > input[type="text"] {
+            margin-left:41px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(5) > input[type="text"] {
+            margin-left:64px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(6) > input[type="text"] {
+            margin-left:60px;
+        }
+        body > main > form > fieldset#stage > fieldset:nth-child(6) > label:nth-child(7) > input[type="text"] {
+            margin-left:0;
+        }
+    }
